@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  #left, #right {
+    height: 100vh;
+  }
+  
+  #left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222831;
+  }
+  
+  #left div {
+    width: 60%;
+    max-width: 684px;
+    background-color: #222831;      
+  }
+  
+  #right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
