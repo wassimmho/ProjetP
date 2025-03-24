@@ -4,6 +4,7 @@ import logo from './assets/Group 1.png'
 import topright from './assets/topright.png';
 import bottomleft from './assets/bottomleft.png';
 import bottomright from './assets/bottomright.png';
+import google from './assets/google.png';
 //import bottomright2 from './assets/Vector 2.png';
 
 function Login(){
@@ -23,8 +24,14 @@ function Login(){
       <div id="right">
         <h1>Welcome to Scope</h1>
         <p id='discription'>SCOPE allows professors to securely swap class slots with mutual approval, ensuring transparency, minimizing conflicts, and providing real-time updates.</p>
-        <input type="text" placeholder="Enter Name..." />
-        <input type="text" placeholder="Enter username..." />
+        
+        <button type="submit" id='google'>
+          <img src={google} alt="google logo" />
+          <span>Continue with google</span>
+        </button>
+
+        <hr />
+
         <input type="text" placeholder="Enter Email..." />
         <div id='password'>   
         <input type="text" placeholder="Enter Password..." />

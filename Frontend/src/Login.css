@@ -87,3 +87,37 @@ p{
     top: 25px;
     left: 25px;
 }
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #ddd;
+  width: 60%;
+}
+
+#google{
+  width:452px ;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  gap: 40px;
+}
+
+#google img{
+  width: 25px;
+  height: 25px;
+}
+
+#google:hover{
+  background-color: #004A69;
+  color: white;
+  
+}
+
+button{
+  cursor:pointer;
+}
