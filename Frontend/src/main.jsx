@@ -1,12 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import About from './website/About.jsx'
+import Feature from './website/Features.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <About />
+    <Feature />
     
   </StrictMode>,
 )

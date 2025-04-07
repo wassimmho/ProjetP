@@ -1,0 +1,72 @@
+body{
+    background-image: linear-gradient(to bottom, #FFFFFF , #d1f1ffd8 80%);
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-image: 
+    linear-gradient(rgb(255, 255, 255) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255, 255, 255) 1px, transparent 1px);
+    background-size: 95px 95px; /* Adjust grid size */
+    
+
+}
+
+h1{
+    font-family: 'montserrat', sans-serif;
+    font-size: 40px;
+}
+#t3{
+    width: 156px;
+    height: 36px;
+    display: flex;
+    gap: 20px;
+    border-radius: 120px;
+    align-items: center;
+    justify-content: center;
+    color: #007AFF;
+    font-family: 'lato', sans-serif;
+    font-weight: 500;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    width: 370px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: -10px 10px 30px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+
+}
+
+.card p{
+    color: #B3B3B3;
+    font-family: 'lato', sans-serif;
+
+}
+
+.card img{
+    width: 250px;
+    height: 250px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
