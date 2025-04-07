@@ -1,0 +1,16 @@
+#navigation {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #FFFFFF;
+    
+}
+
+#container {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#hero {
+    
+}

@@ -1,13 +1,19 @@
 import { useState } from 'react'
 import './App.css'
-import Login from './Login.jsx'
+import { useEffect } from 'react'
+import Login from './Login/Login.jsx'
+import Navbar from './website/navbar.jsx'
+import Hero from './website/Hero.jsx'
 
 function App() {
 
-    const [name,setname] = useState("wassim");
-
     return<>
-    <Login />
+    <div id='container'>
+    <Navbar id='navigation'/>
+    <Hero id='hero'/>
+
+
+    </div>
     </>
 }
 
