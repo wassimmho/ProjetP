@@ -4,10 +4,7 @@
     box-sizing: border-box;
   }
 
-  body {
-    overflow: hidden;
 
-  }
 
   .about{
     width: 100vw;
@@ -16,7 +13,7 @@
     color: white;
   }
 
-.container {
+.containerabout {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -44,7 +41,7 @@ p {
     align-items: center;
 }
 
-#t2 {
+#t2ab {
     padding-top: 100px;
     width: 156px;
     height: 36px;

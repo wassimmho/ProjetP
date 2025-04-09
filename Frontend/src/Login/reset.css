@@ -85,6 +85,11 @@
     cursor: pointer;
   }
 
+  #home:hover{
+    background-color: white;
+    color: #222831;
+  }
+
 
   /* #send::before {
     content: "";

@@ -2,6 +2,7 @@
 
 .navbar{
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
@@ -11,6 +12,7 @@
     height: 80px;
     padding-left: 94px;
     padding-right: 94px;
+    top: 0;
 }
 
 .logo{
@@ -51,6 +53,7 @@ ul{
 
 a{
     color: #000000;
+    text-decoration: none;
 }
 
 .indicator {

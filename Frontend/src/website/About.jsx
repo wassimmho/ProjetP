@@ -6,8 +6,8 @@ import logo from'../assets/Group 1.png'
 function About() {
     return <>
         <div className="about">
-            <div className="container">
-            <div id="t2">
+            <div className="containerabout" id='about'>
+            <div id="t2ab">
                 <img src={t2} alt="" />
                 <p>Insightful</p>
             </div>

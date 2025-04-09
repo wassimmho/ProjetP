@@ -13,7 +13,7 @@ import Dash from'../assets/Dash.png'
 function Hero(){
 
     return<>
-    <div className="container" id='home'>
+    <div className="containerhero" id='home'>
         <div id='title'>Seamless Scheduling <br/> Effortless Swaps</div>
 
         <div id='description'>Manage your teaching schedule with ease—swap classes securely, avoid conflicts,
