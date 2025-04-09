@@ -6,7 +6,7 @@ function FAQ() {
     return<>
 
         <div className='containerfaq' id='faq'>
-            <div className='card'>
+            <div className='cardfaq'>
                 <div id='text'>
                     <h1>You ask - we answer</h1>
                     <p>All you want to know about Scope</p>
