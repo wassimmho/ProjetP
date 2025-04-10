@@ -7,6 +7,8 @@ import Hero from './website/Hero.jsx'
 import Features from './website/Features.jsx'
 import About from './website/About.jsx'
 import FAQ from './website/FAQ.jsx'
+import Contact from './website/Contact.jsx'
+
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
     <About id='about'/>
     <Features id='Features'/>
     <FAQ id='FAQ'/>
+    <Contact id='contact'/>
+
 
 
 
